@@ -27,7 +27,7 @@ module.exports = {
   create: function inParams(context) {
     const option = context.options[0];
     let maxParams = 1;
-    let maxDestructured = 1;
+    let maxDestructured = 3;
 
     if (typeof option === 'object') {
       if (Object.prototype.hasOwnProperty.call(option, 'max-params') && typeof option['max-params'] === 'number') {

@@ -40,5 +40,9 @@ ruleTester.run('in-params', rule, {
     test({
       code: 'function t(b, { a, d, c }) {}',
       errors,
+    }),
+    test({
+      code: 'function t({ a, d, c, d }) {}',
+      errors,
     })],
 });
