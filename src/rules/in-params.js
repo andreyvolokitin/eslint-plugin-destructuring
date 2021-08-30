@@ -43,7 +43,8 @@ module.exports = {
     return {
       ObjectPattern(node) {
         if (node.parent.type === 'ArrowFunctionExpression' ||
-        node.parent.type === 'FunctionDeclaration') {
+        node.parent.type === 'FunctionDeclaration' ||
+          node.parent.type === 'FunctionExpression') {
           if (node.parent.params.length > maxParams) {
             context.report(node, 'Do not use destructuring in params when there' +
               ` are more than ${maxParams} params.`);
