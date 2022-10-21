@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-destructuring",
-  "version": "2.2.0",
+  "name": "@andreyvolokitin/eslint-plugin-destructuring",
+  "version": "2.3.1",
   "author": "Luke Page",
   "description": "destructuring specific linting rules for ESLint",
   "main": "lib/index.js",
@@ -18,10 +18,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lukeapage/eslint-plugin-destructuring"
+    "url": "https://github.com/andreyvolokitin/eslint-plugin-destructuring"
   },
-  "homepage": "https://github.com/lukeapage/eslint-plugin-destructuring",
-  "bugs": "https://github.com/lukeapage/eslint-plugin-destructuring/issues",
+  "homepage": "https://github.com/andreyvolokitin/eslint-plugin-destructuring",
+  "bugs": "https://github.com/andreyvolokitin/eslint-plugin-destructuring/issues",
   "dependencies": {
     "lodash.zipobject": "^4.1.3"
   },
