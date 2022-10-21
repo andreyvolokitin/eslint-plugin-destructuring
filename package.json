@@ -18,10 +18,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lukeapage/eslint-plugin-destructuring"
+    "url": "https://github.com/andreyvolokitin/eslint-plugin-destructuring"
   },
-  "homepage": "https://github.com/lukeapage/eslint-plugin-destructuring",
-  "bugs": "https://github.com/lukeapage/eslint-plugin-destructuring/issues",
+  "homepage": "https://github.com/andreyvolokitin/eslint-plugin-destructuring",
+  "bugs": "https://github.com/andreyvolokitin/eslint-plugin-destructuring/issues",
   "dependencies": {
     "lodash.zipobject": "^4.1.3"
   },
