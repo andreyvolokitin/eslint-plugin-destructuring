@@ -1,6 +1,6 @@
 {
   "name": "@andreyvolokitin/eslint-plugin-destructuring",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "author": "Luke Page",
   "description": "destructuring specific linting rules for ESLint",
   "main": "lib/index.js",
